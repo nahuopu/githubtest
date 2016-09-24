@@ -5,11 +5,14 @@
 		<title></title>
 	</head>
 	<body>
+
 		<p>test</p>
+		<p id="p1">test</p>
 		<script type="text/javascript">
 			document.getElementsByTagName("p")[0].onclick = function(){
 				console.log("Hello! One")
 			}
+			document.getElementById("p1").innerHTML = "Hello! Two"
 		</script>
 	</body>
 </html>
